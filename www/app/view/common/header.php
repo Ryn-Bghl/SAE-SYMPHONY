@@ -17,20 +17,20 @@
         </a>
         <nav>
             <ul>
-                <li><a href="#boutique">Boutique</a></li>
-                <li><a href="#notre-marque">Notre marque</a></li>
-                <li><a href="#notre-equipe">Notre équipe</a></li>
-                <li><a href="#brassage">Brassage</a></li>
+                <li><a target="_blank" href="../../../?route=boutique">Boutique</a></li>
+                <li><a target="_blank" href="../../../?route=notre-marque">Notre marque</a></li>
+                <li><a target="_blank" href="../../../?route=notre-equipe">Notre équipe</a></li>
+                <li><a target="_blank" href="../../../?route=brassage">Brassage</a></li>
             </ul>
         </nav>
         <ul class="profile-pannier">
             <li>
-                <a href="#profil">
+                <a href="../../../?route=profil">
                     <figure id="profile-icon"><img src="../../../public/images/profile-icon.png" alt="icon de profil"></figure>
                 </a>
             </li>
             <li>
-                <a href="#pannier">
+                <a href="../../../?route=pannier">
                     <figure id="pannier-icon"><img src="../../../public/images/pannier-icon.png" alt="icon de pannier"></figure>
                 </a>
             </li>

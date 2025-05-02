@@ -15,9 +15,16 @@ img {
     --cls-black: #000000;
 }
 
+/* Typography */
+
 @font-face {
     font-family: 'Honey Salt';
     src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url("../../public/fonts/Neucha.otf");
 }
 
 body {
@@ -34,17 +41,18 @@ header {
 }
 
 #logo-symphony {
-    width: 200px;
+    width: 125px;
     height: auto;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2vw;
 }
 
 nav a {
+    font-size: 2vw;
     font-family: "Honey Salt", sans-serif;
     color: var(--cls-white);
     text-decoration: none;
@@ -71,5 +79,42 @@ nav a {
 /* Footer */
 
 footer {
-    color: var(--cls-white)
+    color: var(--cls-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 1rem;
+}
+
+footer a {
+    font-family: "Neucha", sans-serif;
+    font-size: 2vw;
+    color: var(--cls-white);
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "Neucha", sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#useful-links {
+    display: flex;
+    gap: 3rem;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#instagram,
+#tiktok,
+#youtube {
+    width: 64px;
+    height: auto;
 }
