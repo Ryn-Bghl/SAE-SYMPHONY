@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $data["page_title"]; ?></title>
+
+    <link rel="stylesheet" href="../../../public/css/style.css">
+    <link rel="shortcut icon" href="../../../public/images/favicon-symphony.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <figure><img src="../../../public/images/symphony-logo.png" alt="logo de symphony"></figure>
+        <a href="../../../?route=home">
+            <figure><img id="logo-symphony" src="../../../public/images/logo-symphony.png" alt="logo de symphony"></figure>
+        </a>
         <nav>
             <ul>
                 <li><a href="#boutique">Boutique</a></li>
@@ -17,14 +22,19 @@
                 <li><a href="#notre-equipe">Notre équipe</a></li>
                 <li><a href="#brassage">Brassage</a></li>
             </ul>
-            <ul class="nav-right">
-                <li><a href="#profil">
-                        <figure><img src="../../../public/images/profil-icon.png" alt="icon de profil"></figure>
-                    </a></li>
-                <li><a href="#pannier">
-                        <figure><img src="../../../public/images/pannier-icon.png" alt="icon de pannier"></figure>
-                    </a></li>
         </nav>
+        <ul class="profile-pannier">
+            <li>
+                <a href="#profil">
+                    <figure><img id="profile-icon" src="../../../public/images/profile-icon.png" alt="icon de profil"></figure>
+                </a>
+            </li>
+            <li>
+                <a href="#pannier">
+                    <figure><img id="pannier-icon" src="../../../public/images/pannier-icon.png" alt="icon de pannier"></figure>
+                </a>
+            </li>
+        </ul>
     </header>
 </body>
 

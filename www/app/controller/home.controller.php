@@ -10,7 +10,7 @@ require_once 'app/controller/controller.php';
 function generateHomePage()
 {
     $data = [
-        'page_title' => "Tech'Etud",
+        'page_title' => "Symphony - Accueil",
         'view' => 'app/view/home.view.php',
         'layout' => 'app/view/common/layout.php',
     ];

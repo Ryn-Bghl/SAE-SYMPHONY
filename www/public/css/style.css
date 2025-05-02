@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary Colors */
+    --cls-white: #ffffff;
+    --cls-black: #000000;
+}
+
+/* Temporaire */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    width: 64px;
+    height: auto;
+}
+
+/* Temporaire */
+
+@font-face {
+    font-family: 'Honey Salt';
+    src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header nav a {
+    font-family: "Honey Salt", sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.profile-pannier {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
