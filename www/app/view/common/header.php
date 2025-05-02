@@ -13,7 +13,7 @@
 <body>
     <header>
         <a href="../../../?route=home">
-            <figure><img id="logo-symphony" src="../../../public/images/logo-symphony.png" alt="logo de symphony"></figure>
+            <figure id="logo-symphony"><img src="../../../public/images/logo-symphony.png" alt="logo de symphony"></figure>
         </a>
         <nav>
             <ul>
@@ -26,16 +26,13 @@
         <ul class="profile-pannier">
             <li>
                 <a href="#profil">
-                    <figure><img id="profile-icon" src="../../../public/images/profile-icon.png" alt="icon de profil"></figure>
+                    <figure id="profile-icon"><img src="../../../public/images/profile-icon.png" alt="icon de profil"></figure>
                 </a>
             </li>
             <li>
                 <a href="#pannier">
-                    <figure><img id="pannier-icon" src="../../../public/images/pannier-icon.png" alt="icon de pannier"></figure>
+                    <figure id="pannier-icon"><img src="../../../public/images/pannier-icon.png" alt="icon de pannier"></figure>
                 </a>
             </li>
         </ul>
     </header>
-</body>
-
-</html>

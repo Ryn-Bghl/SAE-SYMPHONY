@@ -4,25 +4,16 @@
     box-sizing: border-box;
 }
 
-:root {
-    /* Primary Colors */
-    --cls-white: #ffffff;
-    --cls-black: #000000;
-}
-
-/* Temporaire */
-
 img {
     max-width: 100%;
     height: auto;
 }
 
-figure {
-    width: 64px;
-    height: auto;
+:root {
+    /* Primary Colors */
+    --cls-white: #ffffff;
+    --cls-black: #000000;
 }
-
-/* Temporaire */
 
 @font-face {
     font-family: 'Honey Salt';
@@ -30,8 +21,10 @@ figure {
 }
 
 body {
-    background-color: black;
+    background-color: var(--cls-black);
 }
+
+/* Header */
 
 header {
     display: flex;
@@ -40,22 +33,43 @@ header {
     padding: 20px;
 }
 
-header nav ul {
+#logo-symphony {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-header nav a {
+nav a {
     font-family: "Honey Salt", sans-serif;
-    color: white;
+    color: var(--cls-white);
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 .profile-pannier {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
+}
+
+#profile-icon {
+    width: 64px;
+    height: auto;
+}
+
+#pannier-icon {
+    width: 40px;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    color: var(--cls-white)
 }
