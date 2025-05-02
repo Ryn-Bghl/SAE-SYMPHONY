@@ -1,5 +1,3 @@
-</body>
-
 <footer>
     <div id="social-networks">
         <a id="instagram" href="https://www.instagram.com/biere.symphony/" target="_blank"><img src="../../../public/images/instagram-icon.png" alt="Instagram"></a>
@@ -16,5 +14,7 @@
     </div>
     <p>© 2025 Symphony. All rights reserved.</p>
 </footer>
+
+</body>
 
 </html>
