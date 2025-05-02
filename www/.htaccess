@@ -1,0 +1,10 @@
+#Autoriser l'affichage des erreurs
+SetEnv PHP_VALUE "display_errors = On"
+
+# Empêcher l'accès direct au fichier config.php
+<Files "config.php">
+    Require all denied
+</Files>
+
+#Désactiver l'affichage de la liste des fichiers dans les dossiers
+Options -Indexes
