@@ -7,11 +7,12 @@ require_once 'app/controller/controller.php';
  * @return void
  *
  */
-function generateHomePage()
+function generateAcceuilPage()
 {
     $data = [
+        'css_file' => '../../../public/css/accueil.css',
         'page_title' => "Symphony - Accueil",
-        'view' => 'app/view/home.view.php',
+        'view' => 'app/view/accueil.view.php',
         'layout' => 'app/view/common/layout.php',
     ];
 

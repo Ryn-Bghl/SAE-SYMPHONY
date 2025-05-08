@@ -1,7 +1,20 @@
+/* Typography */
+
+@font-face {
+    font-family: 'Honey Salt';
+    src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url("../../public/fonts/Neucha.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "honey salt", sans-serif;
 }
 
 img {
@@ -15,16 +28,11 @@ img {
     --cls-black: #000000;
 }
 
-/* Typography */
-
-@font-face {
-    font-family: 'Honey Salt';
-    src: url("../../public/fonts/Honey_Salt.otf");
-}
-
-@font-face {
-    font-family: 'Neucha';
-    src: url("../../public/fonts/Neucha.otf");
+.focus {
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    padding: 0 1rem;
 }
 
 body {
@@ -51,12 +59,25 @@ nav ul {
     gap: 2vw;
 }
 
+nav ul li {
+    list-style: none;
+}
+
 nav a {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Honey Salt", sans-serif;
     color: var(--cls-white);
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    background-color: var(--cls-white);
+    color: var(--cls-black);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    transition: all 0.1s ease-in-out;
 }
 
 .profile-pannier {
@@ -64,6 +85,7 @@ nav a {
     flex-direction: row;
     gap: 20px;
     align-items: center;
+    list-style: none;
 }
 
 #profile-icon {
@@ -74,6 +96,14 @@ nav a {
 #pannier-icon {
     width: 40px;
     height: auto;
+}
+
+
+
+/* Main */
+
+main {
+    color: var(--cls-white);
 }
 
 /* Footer */
@@ -90,7 +120,7 @@ footer {
 
 footer a {
     font-family: "Neucha", sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: var(--cls-white);
     text-decoration: none;
 }
@@ -115,6 +145,6 @@ footer p {
 #instagram,
 #tiktok,
 #youtube {
-    width: 64px;
+    width: 2.5vw;
     height: auto;
 }

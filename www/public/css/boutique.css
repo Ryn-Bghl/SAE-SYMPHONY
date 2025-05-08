@@ -1,0 +1,89 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-box {
+    border: #fff solid 2px;
+    width: 400px;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: auto;
+}
+
+.image-container img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff;
+    color: black;
+    padding: .5rem;
+    justify-content: space-between;
+}
+
+.quantity-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff;
+    color: black;
+    padding: .5rem;
+}
+
+.quantity-container button {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+#quantity-input {
+    width: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#quantity-input {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0;
+}
+
+#quantity-input::-webkit-inner-spin-button,
+#quantity-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
