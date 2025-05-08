@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $data["page_title"]; ?></title>
 
-    <link rel="stylesheet" href="../../../public/css/style.css">
+    <link rel="stylesheet" href="../../../public/css/header-footer.css">
     <link rel="shortcut icon" href="../../../public/images/favicon-symphony.png" type="image/x-icon">
 </head>
 
