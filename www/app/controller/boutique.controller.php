@@ -31,6 +31,7 @@ function generateBoutiquePage()
 
     $data = [
         'products' => $products,
+        'css_file' => "../../../public/css/boutique.css",
         'page_title' => "Symphony - Boutique",
         'view' => 'app/view/boutique.view.php',
         'layout' => 'app/view/common/layout.php',

@@ -7,12 +7,13 @@
     <title><?php echo $data["page_title"]; ?></title>
 
     <link rel="stylesheet" href="../../../public/css/header-footer.css">
+    <link rel="stylesheet" href="../../../public/css/<?php echo $data["css_file"]; ?>.css">
     <link rel="shortcut icon" href="../../../public/images/favicon-symphony.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <a href="../../../?route=home">
+        <a href="../../../?route=accueil">
             <figure id="logo-symphony"><img src="../../../public/images/logo-symphony.png" alt="logo de symphony"></figure>
         </a>
         <nav>
