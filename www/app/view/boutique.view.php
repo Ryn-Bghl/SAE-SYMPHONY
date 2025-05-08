@@ -17,7 +17,7 @@
                     </div>
                     <div class="quantity-container">
                         <button type=" button" onclick="this.parentNode.querySelector('#quantity-input').stepDown()">-</button>
-                        <input id="quantity-input" type="number" value="1" min="1" max="10">
+                        <input id="quantity-input" type="number" value="1" min="1" max="12">
                         <button type="button" onclick="this.parentNode.querySelector('#quantity-input').stepUp()">+</button>
                     </div>
                 </div>

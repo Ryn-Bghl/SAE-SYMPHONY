@@ -1,6 +1,11 @@
 /* Typography */
 
 @font-face {
+    font-family: 'Hacked';
+    src: url("../../public/fonts/Hacked-KerX.ttf");
+}
+
+@font-face {
     font-family: 'Honey Salt';
     src: url("../../public/fonts/Honey_Salt.otf");
 }

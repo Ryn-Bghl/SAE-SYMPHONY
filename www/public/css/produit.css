@@ -1,65 +1,52 @@
 main {
+    width: 90%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    gap: 2rem;
+    height: 90dvh;
 }
 
-.shop-container {
+figure {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 80%;
-}
-
-.product-box {
-    border: #fff solid 2px;
-    width: 400px;
-    height: auto;
-}
-
-.image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 240px;
-    width: auto;
-}
-
-.image-container img {
-    width: auto;
-    height: 100%;
-    object-fit: contain;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     gap: 2rem;
-    background-color: #fff;
-    color: black;
-    padding: .5rem;
-    justify-content: space-between;
-}
-
-.price {
-    font-size: 1.25rem;
-}
-
-.quantity-container {
+    width: 40%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.quantity-container button {
+.text-container h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.price-container span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.price-container button {
     font-size: 2rem;
     cursor: pointer;
-    background-color: #fff;
+    background-color: black;
     border: none;
+    color: white;
 }
 
 #quantity-input {
@@ -69,6 +56,8 @@ main {
     border: none;
     padding: 0;
     margin: 0;
+    background-color: black;
+    color: white;
 }
 
 #quantity-input {
