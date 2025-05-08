@@ -13,46 +13,53 @@ function generateBoutiquePage()
     // Simulated database
     $products = [
         [
-            'name' => 'Guitar',
-            'description' => 'A high-quality acoustic guitar.',
+            'name' => 'Jazz Lager',
+            'description' => 'A smooth and mellow lager, perfect for jazz evenings.',
             'price' => 2.99,
-            'image' => '../../../public/images/jazz.png'
+            'image' => '../../../public/images/jazz.png',
+            'genre' => 'jazz'
         ],
         [
-            'name' => 'Drum Set',
-            'description' => 'A complete drum set for beginners.',
+            'name' => 'Pop Ale',
+            'description' => 'A refreshing ale that pairs well with pop music.',
             'price' => 2.99,
-            'image' => '../../../public/images/pop.png'
+            'image' => '../../../public/images/pop.png',
+            'genre' => 'pop'
         ],
         [
-            'name' => 'Drum Set',
-            'description' => 'A complete drum set for beginners.',
+            'name' => 'R&B Stout',
+            'description' => 'A rich and creamy stout, ideal for R&B vibes.',
             'price' => 2.99,
-            'image' => '../../../public/images/rnb.png'
+            'image' => '../../../public/images/rnb.png',
+            'genre' => 'r&b'
         ],
         [
-            'name' => 'Drum Set',
-            'description' => 'A complete drum set for beginners.',
+            'name' => 'Classical Pilsner',
+            'description' => 'A crisp and elegant pilsner, suited for classical music.',
             'price' => 2.99,
-            'image' => '../../../public/images/classique.png'
+            'image' => '../../../public/images/classique.png',
+            'genre' => 'classical'
         ],
         [
-            'name' => 'Piano',
-            'description' => 'A classic upright piano.',
+            'name' => 'Hip-Hop IPA',
+            'description' => 'A bold and hoppy IPA, great for hip-hop beats.',
             'price' => 2.99,
-            'image' => '../../../public/images/hip-hop.png'
+            'image' => '../../../public/images/hip-hop.png',
+            'genre' => 'hip-hop'
         ],
         [
-            'name' => 'Drum Set',
-            'description' => 'A complete drum set for beginners.',
+            'name' => 'Techno Lager',
+            'description' => 'A vibrant and energetic lager, crafted for techno tracks.',
             'price' => 2.99,
-            'image' => '../../../public/images/techno.png'
+            'image' => '../../../public/images/techno.png',
+            'genre' => 'techno'
         ],
         [
-            'name' => 'Drum Set',
-            'description' => 'A complete drum set for beginners.',
+            'name' => 'Rock Porter',
+            'description' => 'A robust and dark porter, perfect for rock anthems.',
             'price' => 2.99,
-            'image' => '../../../public/images/rock.png'
+            'image' => '../../../public/images/rock.png',
+            'genre' => 'rock'
         ],
     ];
 

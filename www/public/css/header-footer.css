@@ -64,7 +64,7 @@ nav ul li {
 }
 
 nav a {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Honey Salt", sans-serif;
     color: var(--cls-white);
     text-decoration: none;
@@ -120,7 +120,7 @@ footer {
 
 footer a {
     font-family: "Neucha", sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: var(--cls-white);
     text-decoration: none;
 }
@@ -145,6 +145,6 @@ footer p {
 #instagram,
 #tiktok,
 #youtube {
-    width: 64px;
+    width: 2.5vw;
     height: auto;
 }

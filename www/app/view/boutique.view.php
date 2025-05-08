@@ -2,7 +2,7 @@
     <div class="shop-container">
         <?php foreach ($data["products"] as $product): ?>
             <div class="product-box">
-                <a href="#">
+                <a href="?route=produit&genre=<?php echo $product['genre']; ?>">
                     <figure class="image-container">
                         <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['description']; ?>">
                     </figure>
@@ -13,7 +13,7 @@
                         <p><?php echo $product['description']; ?></p>
                     </div>
                     <div class="price-container">
-                        <p><?php echo $product['price']; ?>€</p>
+                        <p class="price"><?php echo $product['price']; ?>€</p>
                     </div>
                     <div class="quantity-container">
                         <button type=" button" onclick="this.parentNode.querySelector('#quantity-input').stepDown()">-</button>
