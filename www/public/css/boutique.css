@@ -11,14 +11,19 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 80%;
 }
 
 .product-box {
     border: #fff solid 2px;
+    width: 400px;
+    height: auto;
 }
 
 .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 240px;
     width: auto;
 }
