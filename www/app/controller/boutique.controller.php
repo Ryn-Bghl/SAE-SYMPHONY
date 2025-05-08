@@ -15,18 +15,46 @@ function generateBoutiquePage()
         [
             'name' => 'Guitar',
             'description' => 'A high-quality acoustic guitar.',
-            'price' => 299.99
+            'price' => 299.99,
+            'image' => '../../../public/images/jazz.png'
         ],
         [
             'name' => 'Piano',
             'description' => 'A classic upright piano.',
-            'price' => 499.99
+            'price' => 499.99,
+            'image' => '../../../public/images/hip-hop.png'
         ],
         [
             'name' => 'Drum Set',
             'description' => 'A complete drum set for beginners.',
-            'price' => 199.99
-        ]
+            'price' => 199.99,
+            'image' => '../../../public/images/pop.png'
+        ],
+        [
+            'name' => 'Drum Set',
+            'description' => 'A complete drum set for beginners.',
+            'price' => 199.99,
+            'image' => '../../../public/images/rnb.png'
+        ],
+        [
+            'name' => 'Drum Set',
+            'description' => 'A complete drum set for beginners.',
+            'price' => 199.99,
+            'image' => '../../../public/images/techno.png'
+        ],
+        [
+            'name' => 'Drum Set',
+            'description' => 'A complete drum set for beginners.',
+            'price' => 199.99,
+            'image' => '../../../public/images/classique.png'
+        ],
+        [
+            'name' => 'Drum Set',
+            'description' => 'A complete drum set for beginners.',
+            'price' => 199.99,
+            'image' => '../../../public/images/rock.png'
+        ],
+
     ];
 
     $data = [

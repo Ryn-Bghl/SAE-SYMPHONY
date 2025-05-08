@@ -1,7 +1,20 @@
+/* Typography */
+
+@font-face {
+    font-family: 'Honey Salt';
+    src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url("../../public/fonts/Neucha.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "honey salt", sans-serif;
 }
 
 img {
@@ -15,17 +28,6 @@ img {
     --cls-black: #000000;
 }
 
-/* Typography */
-
-@font-face {
-    font-family: 'Honey Salt';
-    src: url("../../public/fonts/Honey_Salt.otf");
-}
-
-@font-face {
-    font-family: 'Neucha';
-    src: url("../../public/fonts/Neucha.otf");
-}
 
 body {
     background-color: var(--cls-black);
