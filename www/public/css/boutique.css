@@ -15,7 +15,6 @@ main {
 }
 
 .product-box {
-    text-decoration: none;
     border: #fff solid 2px;
 }
 
@@ -25,7 +24,7 @@ main {
 }
 
 .image-container img {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: contain;
 }
@@ -53,4 +52,35 @@ main {
     background-color: #fff;
     color: black;
     padding: .5rem;
+}
+
+#quantity-input {
+    width: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#quantity-input {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0;
+}
+
+#quantity-input::-webkit-inner-spin-button,
+#quantity-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-container button {
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
 }

@@ -1,10 +1,12 @@
 <main>
     <div class="shop-container">
         <?php foreach ($data["products"] as $product): ?>
-            <a href="#" class="product-box">
-                <figure class="image-container">
-                    <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['description']; ?>">
-                </figure>
+            <div class="product-box">
+                <a href="#">
+                    <figure class="image-container">
+                        <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['description']; ?>">
+                    </figure>
+                </a>
                 <div class="text-container">
                     <div class="info-container">
                         <h2><?php echo $product['name']; ?></h2>
@@ -14,12 +16,12 @@
                         <p><?php echo $product['price']; ?>€</p>
                     </div>
                     <div class="quantity-container">
-                        <button class="add-one-to-chart">+</button>
-                        <input type="number" value="1" min="1" max="10" class="quantity-input">
-                        <button class="remove-one-to-chart">-</button>
+                        <button type=" button" onclick="this.parentNode.querySelector('#quantity-input').stepDown()">-</button>
+                        <input id="quantity-input" type="number" value="1" min="1" max="10">
+                        <button type="button" onclick="this.parentNode.querySelector('#quantity-input').stepUp()">+</button>
                     </div>
                 </div>
-            </a>
+            </div>
         <?php endforeach; ?>
     </div>
 </main>
