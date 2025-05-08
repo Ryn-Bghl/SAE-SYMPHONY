@@ -18,10 +18,10 @@
         </a>
         <nav>
             <ul>
-                <li><a href="../../../?route=boutique">Boutique</a></li>
-                <li><a href="../../../?route=notre-marque">Notre marque</a></li>
-                <li><a href="../../../?route=notre-equipe">Notre équipe</a></li>
-                <li><a href="../../../?route=brassage">Brassage</a></li>
+                <li><a class="<?php echo isset($data['active_route']) && $data['active_route'] === 'boutique' ? 'focus' : ''; ?>" href="../../../?route=boutique">Boutique</a></li>
+                <li><a class="<?php echo isset($data['active_route']) && $data['active_route'] === 'notre-marque' ? 'focus' : ''; ?>" href="../../../?route=notre-marque">Notre marque</a></li>
+                <li><a class="<?php echo isset($data['active_route']) && $data['active_route'] === 'notre-equipe' ? 'focus' : ''; ?>" href="../../../?route=notre-equipe">Notre équipe</a></li>
+                <li><a class="<?php echo isset($data['active_route']) && $data['active_route'] === 'brassage' ? 'focus' : ''; ?>" href="../../../?route=brassage">Brassage</a></li>
             </ul>
         </nav>
         <ul class="profile-pannier">

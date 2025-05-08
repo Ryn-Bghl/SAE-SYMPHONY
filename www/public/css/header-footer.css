@@ -28,6 +28,12 @@ img {
     --cls-black: #000000;
 }
 
+.focus {
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
 
 body {
     background-color: var(--cls-black);
@@ -63,6 +69,15 @@ nav a {
     color: var(--cls-white);
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    background-color: var(--cls-white);
+    color: var(--cls-black);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    transition: all 0.1s ease-in-out;
 }
 
 .profile-pannier {

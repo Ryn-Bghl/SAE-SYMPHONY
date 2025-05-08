@@ -38,9 +38,7 @@ main {
     background-color: #fff;
     color: black;
     padding: .5rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    justify-content: space-between;
 }
 
 .quantity-container {
@@ -52,6 +50,13 @@ main {
     background-color: #fff;
     color: black;
     padding: .5rem;
+}
+
+.quantity-container button {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
 }
 
 #quantity-input {
@@ -76,11 +81,4 @@ main {
 #quantity-input::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
-
-.quantity-container button {
-    border: none;
-    background-color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
