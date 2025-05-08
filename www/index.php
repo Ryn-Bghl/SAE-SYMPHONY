@@ -12,6 +12,10 @@ switch ($route) {
         require_once 'app/controller/home.controller.php';
         generateHomePage();
         break;
+    case 'boutique':
+        require_once 'app/controller/boutique.controller.php';
+        generateBoutiquePage();
+        break;
     default:
         die();
 }

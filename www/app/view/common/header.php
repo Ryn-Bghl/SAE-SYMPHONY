@@ -17,10 +17,10 @@
         </a>
         <nav>
             <ul>
-                <li><a target="_blank" href="../../../?route=boutique">Boutique</a></li>
-                <li><a target="_blank" href="../../../?route=notre-marque">Notre marque</a></li>
-                <li><a target="_blank" href="../../../?route=notre-equipe">Notre équipe</a></li>
-                <li><a target="_blank" href="../../../?route=brassage">Brassage</a></li>
+                <li><a href="../../../?route=boutique">Boutique</a></li>
+                <li><a href="../../../?route=notre-marque">Notre marque</a></li>
+                <li><a href="../../../?route=notre-equipe">Notre équipe</a></li>
+                <li><a href="../../../?route=brassage">Brassage</a></li>
             </ul>
         </nav>
         <ul class="profile-pannier">

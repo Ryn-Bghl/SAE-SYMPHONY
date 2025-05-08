@@ -76,6 +76,12 @@ nav a {
     height: auto;
 }
 
+/* Main */
+
+main {
+    color: var(--cls-white);
+}
+
 /* Footer */
 
 footer {
