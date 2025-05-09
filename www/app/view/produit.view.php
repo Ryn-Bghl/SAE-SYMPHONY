@@ -1,4 +1,9 @@
 <main>
+    <style>
+        h1 {
+            font-family: <?= $data["product"]["police"] ?>;
+        }
+    </style>
     <figure>
         <img src="<?= $data["product"]["image"] ?>" alt="<?= $data["product"]["subtitle"] ?>">
     </figure>
