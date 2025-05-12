@@ -17,6 +17,7 @@ img {
 }
 
 body {
+    padding: 1rem;
     background: url("../images/background-img.jpg") center/cover fixed;
     background-color: rgba(0, 0, 0, 0.25);
     background-blend-mode: darken;
@@ -47,15 +48,26 @@ main figure {
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 2rem;
+    padding: 1rem 3rem;
     border-radius: 4rem;
     border: solid white 2px;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 form {
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -71,4 +83,18 @@ form button {
 
 button:nth-child(1) {
     background-color: #343434;
+}
+
+/* Phone Format */
+@media screen and (max-width: 757px) {
+    main figure {
+        width: 40vw;
+    }
+}
+
+/* Tablet Format */
+@media (min-width: 768px) and (max-width: 1024px) {
+    main figure {
+        width: 30vw;
+    }
 }
