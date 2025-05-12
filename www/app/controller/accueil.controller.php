@@ -7,7 +7,7 @@ require_once 'app/controller/controller.php';
  * @return void
  *
  */
-function generateAcceuilPage()
+function generateAccueilPage()
 {
     $data = [
         'css_file' => '../../../public/css/accueil.css',
