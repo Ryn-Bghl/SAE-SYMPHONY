@@ -6,7 +6,7 @@ main {
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    height: 90dvh;
+    margin: 4rem auto;
 }
 
 figure {
@@ -70,4 +70,14 @@ figure {
 #quantity-input::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+@media screen and (max-width : 1024px) {
+    main {
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 100%;
+    }
 }
