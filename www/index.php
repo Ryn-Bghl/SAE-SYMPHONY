@@ -3,20 +3,21 @@ session_start();
 require_once 'config.php';
 require_once 'app/model/model.php';
 
-session_start();
+$route = "accueil";
+
+if (isset($_POST["age-gate"]) && $_POST["age-gate"] === "yes") {
+    $_SESSION["age_verified"] = true;
+}
+
 if (!isset($_SESSION['age_verified'])) {
-    header('Location: age-gate.php');
+    header('Location: ./app/view/age.view.php');
     exit();
 }
-$route = '';
+
 if (!empty($_GET['route'])) {
     $route = $_GET['route'];
 }
 switch ($route) {
-    case 'ageVerification':
-        require_once 'app/controller/ageVerification.controller.php';
-        generateAgeVerificationPage();
-        break;
     case 'accueil':
         require_once 'app/controller/accueil.controller.php';
         generateAccueilPage();
