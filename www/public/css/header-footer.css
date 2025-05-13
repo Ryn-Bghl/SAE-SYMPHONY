@@ -34,8 +34,8 @@ img {
 }
 
 .focus {
-    background-color: white;
-    color: black;
+    background-color: var(--cls-white);
+    color: var(--cls-black);
     border-radius: 1rem;
     padding: 0 1rem;
 }
@@ -99,11 +99,13 @@ nav a:hover {
 }
 
 #pannier-icon {
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 
-
+#burger-menu {
+    display: none;
+}
 
 /* Main */
 
@@ -152,4 +154,47 @@ footer p {
 #youtube {
     width: 2.5vw;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav,
+    .profile-pannier {
+        display: none;
+    }
+
+    #logo-symphony {
+        width: 100px;
+    }
+
+    header {
+        padding: 20px 2.5rem;
+    }
+
+    #burger-menu {
+        display: block;
+        width: 50px;
+        height: auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    #social-networks a {
+        width: 30px;
+        height: auto;
+    }
+
+    #useful-links {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    #useful-links a {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
 }
