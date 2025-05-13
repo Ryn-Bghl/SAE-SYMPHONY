@@ -36,4 +36,5 @@
                 </a>
             </li>
         </ul>
+        <button id="burger-menu"><img src="../../../public/images/menu-sandwich.png" alt="menu burger"></button>
     </header>
