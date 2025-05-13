@@ -67,7 +67,7 @@ function generateBoutiquePage()
         'products' => $products,
         'active_route' => 'boutique',
         'css_file' => "../../../public/css/boutique.css",
-        'page_title' => "Symphony - Boutique",
+        'page_title' => "SYMPHONY - Boutique",
         'view' => 'app/view/boutique.view.php',
         'layout' => 'app/view/common/layout.php',
     ];

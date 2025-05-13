@@ -23,11 +23,10 @@ function generateProduitPage()
         'product' => $product,
         'active_route' => '',
         'css_file' => "../../../public/css/produit.css",
-        'page_title' => "Symphony - Produits",
+        'page_title' => "SYMPHONY - Produits",
         'view' => 'app/view/produit.view.php',
         'layout' => 'app/view/common/layout.php',
     ];
 
     generatePage($data);
 }
- 

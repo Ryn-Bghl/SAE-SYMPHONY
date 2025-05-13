@@ -11,7 +11,7 @@ function generateAccueilPage()
 {
     $data = [
         'css_file' => '../../../public/css/accueil.css',
-        'page_title' => "Symphony - Accueil",
+        'page_title' => "SYMPHONY - Accueil",
         'view' => 'app/view/accueil.view.php',
         'layout' => 'app/view/common/layout.php',
     ];
