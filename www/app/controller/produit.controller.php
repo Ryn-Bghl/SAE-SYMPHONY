@@ -15,7 +15,7 @@ function generateProduitPage()
         'subtitle' => 'A smooth and mellow lager, perfect for jazz evenings.',
         'description' => 'Jazz Lager is a premium beer crafted for those who appreciate the finer things in life. With its smooth and mellow taste, it is the ideal companion for relaxing jazz evenings or any occasion that calls for a touch of sophistication. Enjoy the perfect balance of flavor and refreshment in every sip.',
         'price' => 2.99,
-        'image' => '../../../public/images/jazz.png',
+        'image' => '../../../public/images/mockup/jazz.png',
         'genre' => 'jazz'
     ];
 
