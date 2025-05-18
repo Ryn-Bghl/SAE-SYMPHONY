@@ -1,56 +1,46 @@
 <main>
     <ul>
         <li>
-            <h1></h1>
+            <h1>Maïssa</h1>
             <img src="../../public/images/equipe/mmi-maissa.png" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Candice</h1>
             <img src="../../public/images/equipe/mmi-clemence.png" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Clémence</h1>
             <img src="../../public/images/equipe/mmi-clemence.png" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Erwann</h1>
             <img src="../../public/images/equipe/mmi-erwann.png" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Rayan</h1>
             <img src="../../public/images/equipe/mmi-rayan.png" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Killian</h1>
             <img src="../../public/images/equipe/mmi-killian.png" alt="">
-            <p></p>
         </li>
     </ul>
     <ul>
         <li>
-            <h1></h1>
+            <h1>Mathilde</h1>
             <img src="../../public/images/equipe/gb-mathilde.jpg" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Tom</h1>
             <img src="../../public/images/equipe/gb-tom.jpg" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Matteo</h1>
             <img src="../../public/images/equipe/gb-matteo.jpg" alt="">
-            <p></p>
         </li>
         <li>
-            <h1></h1>
+            <h1>Mabel</h1>
             <img src="../../public/images/equipe/gb-mabel.png" alt="">
-            <p></p>
         </li>
     </ul>
 </main>
