@@ -6,7 +6,7 @@
         </li>
         <li>
             <h1>Candice</h1>
-            <img src="../../public/images/equipe/mmi-clemence.png" alt="">
+            <img src="../../public/images/equipe/mmi-candice.png" alt="">
         </li>
         <li>
             <h1>Clémence</h1>
@@ -22,7 +22,7 @@
         </li>
         <li>
             <h1>Killian</h1>
-            <img src="../../public/images/equipe/mmi-killian.png" alt="">
+            <img src="../../public/images/equipe/mmi-killian.jpg" alt="">
         </li>
     </ul>
     <ul>
