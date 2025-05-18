@@ -30,6 +30,10 @@ switch ($route) {
         require_once 'app/controller/produit.controller.php';
         generateProduitPage();
         break;
+    case 'notre-equipe':
+        require_once 'app/controller/equipe.controller.php';
+        generateEquipePage();
+        break;
     default:
         die();
 }
