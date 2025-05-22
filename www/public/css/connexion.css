@@ -1,0 +1,262 @@
+
+@font-face {
+    font-family: 'Hacked';
+    src: url("../../public/fonts/Hacked-KerX.ttf");
+}
+
+@font-face {
+    font-family: 'Honey Salt';
+    src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url("../../public/fonts/Neucha.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "honey salt", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+  
+    --cls-white: #ffffff;
+    --cls-black: #000000;
+}
+
+.focus {
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5rem;
+}
+
+#logo-symphony {
+    width: 125px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    font-size: 1.5vw;
+    font-family: "Honey Salt", sans-serif;
+    color: var(--cls-white);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    background-color: var(--cls-white);
+    color: var(--cls-black);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.profile-pannier {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+
+#profile-icon {
+    width: 64px;
+    height: auto;
+}
+
+#pannier-icon {
+    width: 40px;
+    height: auto;
+}
+
+label {
+  color: black;
+}
+
+
+main {
+    color: var(--cls-white);
+}
+
+
+footer {
+    color: var(--cls-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 1rem;
+}
+
+footer a {
+    font-family: "Neucha", sans-serif;
+    font-size: 1.5vw;
+    color: var(--cls-white);
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "Neucha", sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#useful-links {
+    display: flex;
+    gap: 3rem;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#instagram,
+#tiktok,
+#youtube {
+    width: 2.5vw;
+    height: auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #000;
+}
+
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+}
+
+.login-box .logo-box {
+    width: 180px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-box label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #333;
+}
+
+
+.login-box .links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.login-box .links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login-box .links a:hover {
+    text-decoration: underline;
+}
+
+.background-decor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.background-decor img {
+  position: absolute;
+  top: 300px;
+  z-index: 0;
+}
+
+.disque {
+  left: 50%;
+  transform: translateX(-500px); 
+  width: 300px;
+}
+
+.platine {
+  left: 50%;
+  transform: translateX(200px); 
+  width: 250px;
+}

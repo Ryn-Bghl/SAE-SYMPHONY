@@ -38,6 +38,10 @@ switch ($route) {
         require_once 'app/controller/brassage.controller.php';
         generateBrassagePage();
         break;
+    case 'connexion':
+        require_once 'app/controller/connexion.controller.php';
+        generateConnexionPage();
+        break;
     default:
         die();
 }

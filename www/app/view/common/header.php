@@ -26,7 +26,7 @@
         </nav>
         <ul class="profile-pannier">
             <li>
-                <a href="../../../?route=profil">
+                <a href="../../../?route=connexion">
                     <figure id="profile-icon"><img src="../../../public/images/profile-icon.png" alt="icon de profil"></figure>
                 </a>
             </li>
