@@ -34,6 +34,10 @@ switch ($route) {
         require_once 'app/controller/equipe.controller.php';
         generateEquipePage();
         break;
+    case 'brassage':
+        require_once 'app/controller/brassage.controller.php';
+        generateBrassagePage();
+        break;
     default:
         die();
 }
