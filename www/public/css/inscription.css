@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Hacked';
+  src: url("../../public/fonts/Hacked-KerX.ttf");
+}
+
+@font-face {
+  font-family: 'Honey Salt';
+  src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+@font-face {
+  font-family: 'Neucha';
+  src: url("../../public/fonts/Neucha.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "honey salt", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  /* Primary Colors */
+  --cls-white: #ffffff;
+  --cls-black: #000000;
+}
+
+.focus {
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+body {
+  background-color: var(--cls-black);
+}
+
+/* Main */
+
+main {
+  color: var(--cls-white);
+}
+
+main {
+  position: relative;
+  width: 100%;
+  max-width: 20000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+/* Image du vinyle à gauche */
+.vinyl {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 300px;
+}
+
+.vinyl img {
+  width: 100%;
+  height: auto;
+}
+
+/* Platine à droite */
+.turntable {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 350px;
+}
+
+.turntable img {
+  width: 100%;
+  height: auto;
+}
+
+/* Formulaire */
+.form-box {
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
+.form-box h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Logo Symphony */
+.form-logo img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Champs du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  text-align: left;
+  font-size: 0.95em;
+  margin-bottom: 5px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background-color: #eee;
+  color: #333;
+  font-size: 1em;
+}
+
+/* Bouton */
+button[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #333;
+}
+
+/* Lien vers connexion */
+.login-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 950px) {
+
+  .vinyl,
+  .turntable {
+    display: none;
+  }
+
+  .form-box {
+    width: 90%;
+  }
+}

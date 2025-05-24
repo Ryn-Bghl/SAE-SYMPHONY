@@ -46,6 +46,10 @@ switch ($route) {
         require_once 'app/controller/marque.controller.php';
         generateMarquePage();
         break;
+    case 'inscription':
+        require_once 'app/controller/inscription.controller.php';
+        generateInscriptionPage();
+        break;
     default:
         die();
 }
