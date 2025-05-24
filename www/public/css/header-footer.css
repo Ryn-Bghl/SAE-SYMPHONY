@@ -75,6 +75,7 @@ nav a {
     color: var(--cls-white);
     text-decoration: none;
     text-transform: uppercase;
+    padding: 0 1rem;
     transition: all 0.1s ease-in-out;
 }
 
@@ -82,8 +83,6 @@ nav a:hover {
     background-color: var(--cls-white);
     color: var(--cls-black);
     border-radius: 1rem;
-    padding: 0 1rem;
-    transition: all 0.1s ease-in-out;
 }
 
 .profile-pannier {
