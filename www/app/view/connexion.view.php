@@ -17,7 +17,7 @@
           </form>
           <div class="links">
               <a href="#">Mot de passe oublié ?</a>
-              <a href="#">S’inscrire ?</a>
+              <a href="?route=inscription">S’inscrire ?</a>
           </div>
       </div>
   </main>

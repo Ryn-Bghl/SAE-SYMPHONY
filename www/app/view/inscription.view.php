@@ -19,6 +19,6 @@
 
             <button type="submit">S'inscrire</button>
         </form>
-        <a href="#" class="login-link">Se connecter</a>
+        <a href="?route=connexion" class="login-link">Se connecter</a>
     </div>
 </main>
