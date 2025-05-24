@@ -1,0 +1,214 @@
+/* Typography */
+
+@font-face {
+    font-family: 'Hacked';
+    src: url("../../public/fonts/Hacked-KerX.ttf");
+}
+
+@font-face {
+    font-family: 'Honey Salt';
+    src: url("../../public/fonts/Honey_Salt.otf");
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url("../../public/fonts/Neucha.otf");
+}
+
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    src: url("../../public/fonts/GloriaHallelujah-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "honey salt", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    /* Primary Colors */
+    --cls-white: #ffffff;
+    --cls-black: #000000;
+}
+
+.focus {
+    background-color: var(--cls-white);
+    color: var(--cls-black);
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+body {
+    background-color: var(--cls-black);
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5rem;
+    backdrop-filter: blur(22px);
+}
+
+#logo-symphony {
+    width: 125px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    font-size: 1.5vw;
+    font-family: "Honey Salt", sans-serif;
+    color: var(--cls-white);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    background-color: var(--cls-white);
+    color: var(--cls-black);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.profile-pannier {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+
+#profile-icon {
+    width: 64px;
+    height: auto;
+}
+
+#pannier-icon {
+    width: 50px;
+    height: auto;
+}
+
+#burger-menu {
+    display: none;
+}
+
+/* Main */
+
+main {
+    color: var(--cls-white);
+}
+
+/* Footer */
+
+footer {
+    color: var(--cls-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 1rem;
+}
+
+footer a {
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 1.5vw;
+    color: var(--cls-white);
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#useful-links {
+    display: flex;
+    gap: 3rem;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#instagram,
+#tiktok,
+#youtube {
+    width: 2vw;
+    height: auto;
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+    header a {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav,
+    .profile-pannier {
+        display: none;
+    }
+
+    #logo-symphony {
+        width: 100px;
+    }
+
+    header {
+        padding: 20px 2.5rem;
+    }
+
+    #burger-menu {
+        display: block;
+        width: 50px;
+        height: auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    #social-networks a {
+        width: 30px;
+        height: auto;
+    }
+
+    #useful-links {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    #useful-links a {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}

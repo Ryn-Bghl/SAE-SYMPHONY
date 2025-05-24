@@ -42,6 +42,10 @@ switch ($route) {
         require_once 'app/controller/connexion.controller.php';
         generateConnexionPage();
         break;
+    case 'notre-marque':
+        require_once 'app/controller/marque.controller.php';
+        generateMarquePage();
+        break;
     default:
         die();
 }

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Gloria Hallelujah";
+    src: url("../fonts/GloriaHallelujah-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Honey Salt";
+    src: url("../fonts/Honey_Salt.otf");
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+main h1 {
+    font-family: "Honey Salt";
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.debut img {
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+
+}
+
+.presentation p {
+    font-family: "Gloria Hallelujah";
+    margin: auto;
+    background-color: #D9D9D9;
+    color: black;
+    width: 80%;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    padding: 50px;
+    width: 70%;
+    border-radius: 32px;
+
+}
