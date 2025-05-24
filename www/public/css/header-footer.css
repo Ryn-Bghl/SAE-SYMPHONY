@@ -67,6 +67,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    width: max-content;
 }
 
 nav a {
