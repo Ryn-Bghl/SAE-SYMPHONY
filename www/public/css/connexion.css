@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Hacked';
     src: url("../../public/fonts/Hacked-KerX.ttf");
@@ -27,7 +26,7 @@ img {
 }
 
 :root {
-  
+
     --cls-white: #ffffff;
     --cls-black: #000000;
 }
@@ -99,36 +98,12 @@ nav a:hover {
 }
 
 label {
-  color: black;
+    color: black;
 }
 
 
 main {
     color: var(--cls-white);
-}
-
-
-footer {
-    color: var(--cls-white);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    gap: 1rem;
-}
-
-footer a {
-    font-family: "Neucha", sans-serif;
-    font-size: 1.5vw;
-    color: var(--cls-white);
-    text-decoration: none;
-}
-
-footer p {
-    font-family: "Neucha", sans-serif;
-    font-size: 1.5vw;
-    text-align: center;
 }
 
 #useful-links {
@@ -234,29 +209,29 @@ body {
 }
 
 .background-decor {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .background-decor img {
-  position: absolute;
-  top: 300px;
-  z-index: 0;
+    position: absolute;
+    top: 300px;
+    z-index: 0;
 }
 
 .disque {
-  left: 50%;
-  transform: translateX(-500px); 
-  width: 300px;
+    left: 50%;
+    transform: translateX(-500px);
+    width: 300px;
 }
 
 .platine {
-  left: 50%;
-  transform: translateX(200px); 
-  width: 250px;
+    left: 50%;
+    transform: translateX(200px);
+    width: 250px;
 }
