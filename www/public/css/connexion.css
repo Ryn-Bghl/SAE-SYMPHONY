@@ -52,33 +52,6 @@ header {
     height: auto;
 }
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 2vw;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav a {
-    font-size: 1.5vw;
-    font-family: "Honey Salt", sans-serif;
-    color: var(--cls-white);
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.1s ease-in-out;
-}
-
-nav a:hover {
-    background-color: var(--cls-white);
-    color: var(--cls-black);
-    border-radius: 1rem;
-    padding: 0 1rem;
-    transition: all 0.1s ease-in-out;
-}
-
 .profile-pannier {
     display: flex;
     flex-direction: row;
