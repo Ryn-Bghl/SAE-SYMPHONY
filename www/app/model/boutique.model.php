@@ -19,8 +19,5 @@ function getAllBeer(): array
     $stmt = $db->prepare("SELECT * From biere ");
     $stmt->execute();
     $result = $stmt->fetchAll();
-    foreach ($result as &$biere) {
-        $biere['genre'] = strtolower(str_replace(' ', '-', $biere['genre']));
-    }
     return $result;
 }
