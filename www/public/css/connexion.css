@@ -26,7 +26,6 @@ img {
 }
 
 :root {
-
     --cls-white: #ffffff;
     --cls-black: #000000;
 }
@@ -47,29 +46,6 @@ header {
     padding: 20px 5rem;
 }
 
-#logo-symphony {
-    width: 125px;
-    height: auto;
-}
-
-.profile-pannier {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    list-style: none;
-}
-
-#profile-icon {
-    width: 64px;
-    height: auto;
-}
-
-#pannier-icon {
-    width: 40px;
-    height: auto;
-}
-
 label {
     color: black;
 }
@@ -78,25 +54,6 @@ label {
 main {
     color: var(--cls-white);
 }
-
-#useful-links {
-    display: flex;
-    gap: 3rem;
-}
-
-#social-networks {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-#instagram,
-#tiktok,
-#youtube {
-    width: 2.5vw;
-    height: auto;
-}
-
 
 body {
     margin: 0;
@@ -200,11 +157,11 @@ body {
 .disque {
     left: 50%;
     transform: translateX(-500px);
-    width: 300px;
+    width: 500px;
 }
 
 .platine {
     left: 50%;
     transform: translateX(200px);
-    width: 250px;
+    width: 350px;
 }

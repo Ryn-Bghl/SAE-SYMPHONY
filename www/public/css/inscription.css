@@ -26,7 +26,6 @@ img {
 }
 
 :root {
-  /* Primary Colors */
   --cls-white: #ffffff;
   --cls-black: #000000;
 }
@@ -42,13 +41,8 @@ body {
   background-color: var(--cls-black);
 }
 
-/* Main */
-
 main {
   color: var(--cls-white);
-}
-
-main {
   position: relative;
   width: 100%;
   max-width: 20000px;
@@ -58,7 +52,6 @@ main {
   padding: 60px 20px;
 }
 
-/* Image du vinyle à gauche */
 .vinyl {
   position: absolute;
   left: 0;
@@ -72,7 +65,6 @@ main {
   height: auto;
 }
 
-/* Platine à droite */
 .turntable {
   position: absolute;
   right: 0;
@@ -86,7 +78,6 @@ main {
   height: auto;
 }
 
-/* Formulaire */
 .form-box {
   background-color: rgba(30, 30, 30, 0.9);
   padding: 40px;
@@ -103,13 +94,11 @@ main {
   font-weight: normal;
 }
 
-/* Logo Symphony */
 .form-logo img {
   width: 120px;
   margin-bottom: 20px;
 }
 
-/* Champs du formulaire */
 form {
   display: flex;
   flex-direction: column;
@@ -132,7 +121,6 @@ form input[type="password"] {
   font-size: 1em;
 }
 
-/* Bouton */
 button[type="submit"] {
   background-color: #000;
   color: #fff;
@@ -149,7 +137,6 @@ button[type="submit"]:hover {
   background-color: #333;
 }
 
-/* Lien vers connexion */
 .login-link {
   display: inline-block;
   margin-top: 20px;
@@ -162,7 +149,6 @@ button[type="submit"]:hover {
   text-decoration: underline;
 }
 
-/* Responsive */
 @media screen and (max-width: 950px) {
 
   .vinyl,
@@ -172,5 +158,51 @@ button[type="submit"]:hover {
 
   .form-box {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-box {
+    width: 100%;
+    padding: 30px 20px;
+    margin: 20px auto;
+  }
+
+  form input[type="email"],
+  form input[type="password"] {
+    font-size: 0.95em;
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    font-size: 0.95em;
+    padding: 10px 20px;
+  }
+
+  .login-link {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-box h2 {
+    font-size: 1.2em;
+  }
+
+  form label {
+    font-size: 0.85em;
+  }
+
+  form input[type="email"],
+  form input[type="password"] {
+    font-size: 0.9em;
+  }
+
+  button[type="submit"] {
+    font-size: 0.9em;
+  }
+
+  .form-logo img {
+    width: 90px;
   }
 }

@@ -1,10 +1,11 @@
 <main>
-    <div class="vinyl"><img src="public/images/disque.png" alt="Image de vinyl"></figure>
+
+    <div class="vinyl"><img src="/public/images/vinyle.png" alt="Image de vinyl"></figure>
     </div>
-    <div class="turntable"><img src="public/images/platine.png" alt="Plaque de Vinyl"></figure>
+    <div class="turntable"><img src="/public/images/platine.png" alt="Plaque de Vinyl"></figure>
     </div>
     <div class="form-box">
-        <div class="form-logo"><img src="public/images/logo-symphony.png" alt="logo de symphony"></figure>
+        <div class="form-logo"><img src="/public/images/logo-symphony.png" alt="logo de symphony"></figure>
         </div>
         <h2>Inscription</h2>
         <form method="post" action="">
@@ -19,6 +20,6 @@
 
             <button type="submit">S'inscrire</button>
         </form>
-        <a href="?route=connexion" class="login-link">Se connecter</a>
+        <a href="/?route=connexion" class="login-link">Se connecter</a>
     </div>
 </main>
