@@ -16,6 +16,7 @@ function generateEquipePage()
 {
     $data = [
         'active_route' => 'notre-equipe',
+        "js_file" => "../../../public/js/equipe.js",
         'css_file' => "../../../public/css/equipe.css",
         'page_title' => "SYMPHONY - Notre equipe",
         'view' => 'app/view/equipe.view.php',

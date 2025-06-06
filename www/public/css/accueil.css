@@ -13,11 +13,70 @@
     src: url(../fonts/Honey_Salt.otf);
 }
 
+@font-face {
+    font-family: "Bernard MT";
+    src: url(../fonts/bernhc.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "ROG";
+    src: url(../fonts/ROGLyonsTypeRegular3.ttf);
+}
+
+@font-face {
+    font-family: "Okay Jelly";
+    src: url(../fonts/Okay\ Jelly.otf);
+}
+
+@font-face {
+    font-family: "SIMBIOT";
+    src: url(../fonts/Simbiot.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: white;
+}
+
+#jazz {
+    font-family: "HACKED";
+}
+
+#rock {
+    font-family: "SIMBIOT";
+    font-size: 60px;
+}
+
+#hiphop {
+    font-family: "Okay Jelly";
+}
+
+#techno {
+    font-family: "ROG";
+}
+
+#pop {
+    font-family: "Bernard MT";
+    font-size: 62px;
+}
+
+#rnb {
+    font-family: "Honey Salt";
+}
+
+#classique {
+    font-family: "Montserrat";
+}
+
+body {
+    overflow-x: hidden;
 }
 
 li {
@@ -34,48 +93,61 @@ img {
     width: 120vw;
     height: 120vw;
     z-index: -1;
-    transform: translate(-30%, -40%);
+    transform: translate(-30%, -32%);
 }
 
 .animation {
     animation: spin 3s linear infinite;
-
-
 }
 
-#dissonance h1 {
-    font-family: "HACKED";
-}
-
-#dissonance p {
-    font-family: "Gloria Hallelujah";
-}
-
-.biere {
+/*.mockup {
     width: 160px;
-    z-index: 2;
     position: absolute;
     transform: translate(240%, -24%);
-    display: flex;
+    display : flex;
     flex-wrap: wrap;
+}*/
+
+.biere {
+    position: relative;
+    width: 18vw;
+    max-width: 160px;
+    min-width: 80px;
+    height: auto;
 }
 
-.produits p,
-.produits h1 {
+.mockup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transform: translate(240%, -20%);
+    display: block;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.description p,
+.description h1 {
     text-align: justify;
-    margin-left: 48%;
-    width: 25%;
+    width: 30%;
     font-size: 2.5vh;
-
-
+    margin-left: 12vw;
 }
 
-.produits p {
+.description p {
+    font-family: "Gloria Hallelujah";
     margin-top: 2%;
 }
 
-.produits h1 {
-    margin-left: 50%;
+.description h1 {
     margin-top: 10%;
     font-size: 80px;
 }
@@ -86,12 +158,131 @@ img {
     text-align: center;
 }
 
+hr {
+    border: none;
+    border-top: 2px solid #999;
+    margin: 40px auto;
+    width: 50%;
+}
+
 .video {
     display: flex;
     justify-content: center;
-    margin-top: 10vw;
 }
 
+.biere {
+    width: 218px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: max-content;
+    margin: 0 auto;
+    min-height: 800px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100%;
+    min-height: 500px;
+}
+
+.bieres_slide {
+    display: none;
+    /* Remove position: absolute, top, left, width, height */
+}
+
+.bieres_slide.active {
+    display: flex;
+    align-items: center;
+}
+
+.precedant,
+.suivant {
+    position: absolute;
+    top: 500px;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    width: 88px;
+    height: 88px;
+}
+
+.precedant {
+    left: 0;
+    margin-left: 80px;
+    transform: translateY(-50%) rotate(180deg) scaleY(-1);
+}
+
+.suivant {
+    right: 0;
+    margin-right: 80px;
+}
+
+.evenements img {
+    width: 25%;
+    margin-top: 20px;
+}
+
+.evenements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#festival {
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .biere {
+        width: 35vw;
+        max-width: 120px;
+    }
+
+    .mockup {
+        transform: translate(100%, 0);
+    }
+
+    .carousel {
+        width: 98vw;
+        min-height: 70vw;
+        max-width: 100vw;
+    }
+
+    .bieres_slide {
+        flex-direction: column;
+        /* Empile verticalement */
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .biere {
+        order: 1;
+        /* Affiche la bière en premier */
+        margin-bottom: 2vw;
+    }
+
+    .description {
+        order: 2;
+        /* Affiche le texte en dessous */
+        align-items: center;
+        margin-left: 0;
+        width: 90vw;
+    }
+
+    .description p,
+    .description h1 {
+        width: 100%;
+        margin-left: 0;
+        font-size: 4vw;
+        text-align: center;
+    }
+}
 
 @keyframes spin {
     0% {
@@ -101,5 +292,4 @@ img {
     100% {
         transform: rotate(360deg);
     }
-
 }

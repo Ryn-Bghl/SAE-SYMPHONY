@@ -16,10 +16,12 @@ function generateAccueilPage()
     $data = [
         "biere" => getAllBeer(),
         "biere_desc" => getBiereDesc($genre),
+        "js_file" => "../../../public/js/accueil.js",
         "css_file" => "../../../public/css/accueil.css",
         'page_title' => "SYMPHONY - Accueil",
         'view' => 'app/view/accueil.view.php',
         'layout' => 'app/view/common/layout.php',
+
     ];
 
     generatePage($data);
