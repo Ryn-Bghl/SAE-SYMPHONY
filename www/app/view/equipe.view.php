@@ -1,46 +1,53 @@
 <main>
-    <ul>
+    <h1> Symphony</h1>
+    <ul class="symphony">
         <li>
-            <h1>Maïssa</h1>
+            <h2>Maïssa</h2>
             <img src="../../public/images/equipe/mmi-maissa.png" alt="">
         </li>
         <li>
-            <h1>Candice</h1>
+            <h2>Candice</h2>
             <img src="../../public/images/equipe/mmi-candice.png" alt="">
         </li>
         <li>
-            <h1>Clémence</h1>
+            <h2>Clémence</h2>
             <img src="../../public/images/equipe/mmi-clemence.png" alt="">
         </li>
         <li>
-            <h1>Erwann</h1>
+            <h2>Erwann</h2>
             <img src="../../public/images/equipe/mmi-erwann.png" alt="">
         </li>
         <li>
-            <h1>Rayan</h1>
+            <h2>Rayan</h2>
             <img src="../../public/images/equipe/mmi-rayan.png" alt="">
         </li>
         <li>
-            <h1>Killian</h1>
+            <h2>Killian</h2>
             <img src="../../public/images/equipe/mmi-killian.jpg" alt="">
         </li>
     </ul>
-    <ul>
+    <h1>Les Brasseurs</h1>
+    <ul class="brasseurs">
         <li>
-            <h1>Mathilde</h1>
+            <h2>Mathilde</h2>
             <img src="../../public/images/equipe/gb-mathilde.jpg" alt="">
         </li>
         <li>
-            <h1>Tom</h1>
+            <h2>Tom</h2>
             <img src="../../public/images/equipe/gb-tom.jpg" alt="">
         </li>
         <li>
-            <h1>Matteo</h1>
+            <h2>Matteo</h2>
             <img src="../../public/images/equipe/gb-matteo.jpg" alt="">
         </li>
         <li>
-            <h1>Mabel</h1>
+            <h2>Mabel</h2>
             <img src="../../public/images/equipe/gb-mabel.png" alt="">
         </li>
     </ul>
 </main>
+<script defer>
+    <?php foreach ($_SESSION as $name => $citation): ?>
+        sessionStorage.setItem("<?php echo $name; ?>", "<?php echo $citation; ?>");
+    <?php endforeach; ?>
+</script>
