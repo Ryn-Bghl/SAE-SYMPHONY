@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../../public/css/header-footer.css">
     <link rel="stylesheet" href="../../../public/css/<?php echo $data["css_file"]; ?>">
     <link rel="shortcut icon" href="../../../public/images/favicon-symphony.png" type="image/x-icon">
+    <script src="/public/js/header.js" defer></script>
     <script src="../../../public/js/<?php echo $data["js_file"]; ?>" defer></script>
 </head>
 
@@ -38,4 +39,14 @@
             </li>
         </ul>
         <button id="burger-menu"><img src="../../../public/images/menu-sandwich.png" alt="menu burger"></button>
+        <div class="burger-popup hidden">
+            <ul>
+                <li><a href="../../../?route=accueil">Accueil</a></li>
+                <li><a href="../../../?route=boutique">Boutique</a></li>
+                <li><a href="../../../?route=notre-marque">Notre marque</a></li>
+                <li><a href="../../../?route=notre-equipe">Notre équipe</a></li>
+                <li><a href="../../../?route=brassage">Brassage</a></li>
+                <li><a href="../../../?route=connexion">Connexion</a></li>
+            </ul>
+        </div>
     </header>

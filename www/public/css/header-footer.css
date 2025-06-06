@@ -33,6 +33,44 @@ img {
     --cls-black: #000000;
 }
 
+.burger-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.burger-popup ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    padding: 2rem;
+    background-color: var(--cls-white);
+    border-radius: 1rem;
+}
+
+.burger-popup a {
+    font-size: 2rem;
+    font-family: "Honey Salt", sans-serif;
+    color: var(--cls-black);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+
 .focus {
     background-color: var(--cls-white);
     color: var(--cls-black);
