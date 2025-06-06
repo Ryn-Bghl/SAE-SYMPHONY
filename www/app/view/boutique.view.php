@@ -4,7 +4,7 @@
             <div class="product-box">
                 <a href="?route=produit&genre=<?php echo $product['genre']; ?>">
                     <figure class="image-container">
-                        <img src="../../public/images/mockup/<?php echo $product['genre']; ?>.png" alt="<?php echo $product['description']; ?>">
+                        <img src="../../public/images/mockup/<?php echo strtolower($product['genre']); ?>.png" alt="<?php echo $product['description']; ?>">
                     </figure>
                 </a>
                 <div class="text-container">

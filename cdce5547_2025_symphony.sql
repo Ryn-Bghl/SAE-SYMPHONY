@@ -60,7 +60,7 @@ CREATE TABLE `team` (
   `id` int NOT NULL,
   `name` varchar(255) NOT NULL,
   `citation` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `team`

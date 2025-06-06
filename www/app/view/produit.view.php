@@ -5,7 +5,7 @@
         }
     </style>
     <figure>
-        <img src="../../public/images/mockup/<?php echo $data["product"]["genre"]; ?>.png" alt="<?= $data["product"]["description"] ?>">
+        <img src="../../public/images/mockup/<?php echo strtolower($data["product"]["genre"]); ?>.png" alt="<?= $data["product"]["description"] ?>">
     </figure>
     <div class="text-container">
         <h1><?= $data["product"]["nom"] ?></h1>
