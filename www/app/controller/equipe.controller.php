@@ -2,6 +2,11 @@
 require_once 'app/controller/controller.php';
 require_once 'app/model/equipe.model.php';
 
+$teamMembers = loadTeamMembersFromDatabase();
+foreach ($teamMembers as $teamMember) {
+    $_SESSION[$teamMember['name']] = $teamMember['citation'];
+}
+
 /**
  * Controller en charge de la génération de la page Boutique
  *
@@ -18,12 +23,4 @@ function generateEquipePage()
     ];
 
     generatePage($data);
-}
-
-function loadTeamMembers()
-{
-    $teamMembers = loadTeamMembersFromDatabase();
-    foreach ($teamMembers as $teamMember) {
-        $_SESSION[$teamMember['name']] = $teamMember['citation'];
-    }
 }

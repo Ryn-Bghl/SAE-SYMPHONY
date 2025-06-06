@@ -33,7 +33,6 @@ switch ($route) {
     case 'notre-equipe':
         require_once 'app/controller/equipe.controller.php';
         generateEquipePage();
-        loadTeamMembers();
         break;
     case 'brassage':
         require_once 'app/controller/brassage.controller.php';

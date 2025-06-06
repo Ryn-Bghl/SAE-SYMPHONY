@@ -5,42 +5,6 @@ body {
   color: #fff;
 }
 
-/* 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 5rem;
-} */
-
-.logo {
-  width: 125px;
-  height: auto;
-}
-
-.profile-pannier {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: center;
-  list-style: none;
-}
-
-#profile-icon {
-  width: 64px;
-  height: auto;
-}
-
-#panier-icon {
-  width: 50px;
-  height: auto;
-}
-
-.icons span {
-  margin-left: 15px;
-  font-size: 1.2em;
-}
-
 main {
   padding: 30px;
   text-align: center;
@@ -99,20 +63,58 @@ hr {
   width: 80%;
 }
 
-#useful-links {
-  display: flex;
-  gap: 3rem;
+@media (max-width: 900px) {
+  header {
+    padding: 15px 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    order: 2;
+  }
+
+  .profile-pannier {
+    order: 1;
+    gap: 15px;
+  }
+
+  .step {
+    flex-direction: column !important;
+    gap: var(--gap-medium);
+    margin-bottom: 3rem;
+  }
+
+  .step img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  main {
+    padding: 30px 1rem;
+  }
 }
 
-#social-networks {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 
-#instagram,
-#tiktok,
-#youtube {
-  width: 2.5vw;
-  height: auto;
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .step .text {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  hr {
+    width: 90%;
+  }
 }
