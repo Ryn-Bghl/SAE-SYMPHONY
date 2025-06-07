@@ -50,6 +50,11 @@ switch ($route) {
         require_once 'app/controller/inscription.controller.php';
         generateInscriptionPage();
         break;
+    case 'error':
+        require_once 'app/controller/404.controller.php';
+        generate404Page();
+        break;
     default:
-        die();
+        header('Location: ?route=error');
+        exit();
 }
