@@ -45,6 +45,10 @@
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 #jazz {
     font-family: "HACKED";
 }
@@ -227,8 +231,8 @@ hr {
 }
 
 .evenements img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .evenements {
@@ -241,6 +245,14 @@ hr {
     margin: auto;
     width: fit-content;
     margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 112px;
+    height: 112px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 @media (max-width: 600px) {

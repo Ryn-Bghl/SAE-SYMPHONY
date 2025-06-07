@@ -4,73 +4,88 @@
         <div class="carousel">
             <div class="slides">
                 <div class="bieres_slide active">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[0]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[0]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[0]["genre"]); ?>.png" alt="Bière dissonance">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[0]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="jazz"><?php echo $biere[0]["nom"]; ?></h1>
                         <p><?php echo $data["biere_desc"][0]["description"]; ?></p>
-                    </div>
+                    </a>
                 </div>
                 <div class="bieres_slide">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[1]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[1]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[1]["genre"]); ?>.png" alt="Bière <?php echo $biere[1]["nom"]; ?>">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[1]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="<?php echo strtolower($biere[1]["genre"]); ?>" ;><?php echo $biere[1]["nom"]; ?></h1>
                         <p><?php echo $biere[1]["description"]; ?></p>
-                    </div>
+                    </a>
                 </div>
                 <div class="bieres_slide">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[2]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[2]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[2]["genre"]); ?>.png" alt="Bière <?php echo $biere[2]["nom"]; ?>">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[2]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="<?php echo strtolower($biere[2]["genre"]); ?>"><?php echo $biere[2]["nom"]; ?></h1>
                         <p><?php echo $biere[2]["description"]; ?></p>
-                    </div>
+                    </a>
                 </div>
                 <div class="bieres_slide">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[3]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[3]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[3]["genre"]); ?>.png" alt="Bière <?php echo $biere[3]["nom"]; ?>">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[3]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="<?php echo strtolower($biere[3]["genre"]); ?>"><?php echo $biere[3]["nom"]; ?></h1>
                         <p><?php echo $biere[3]["description"]; ?></p>
-                    </div>
+
+                    </a>
                 </div>
                 <div class="bieres_slide">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[4]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[4]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[4]["genre"]); ?>.png" alt="Bière <?php echo $biere[4]["nom"]; ?>">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[4]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="<?php echo strtolower($biere[4]["genre"]); ?>"><?php echo $biere[4]["nom"]; ?></h1>
                         <p><?php echo $biere[4]["description"]; ?></p>
-                    </div>
+                    </a>
                 </div>
                 <div class="bieres_slide">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[5]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[5]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[5]["genre"]); ?>.png" alt="Bière <?php echo $biere[5]["nom"]; ?>">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[5]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="<?php echo strtolower($biere[5]["genre"]); ?>"><?php echo $biere[5]["nom"]; ?></h1>
                         <p><?php echo $biere[5]["description"]; ?></p>
-                    </div>
+                    </a>
                 </div>
                 <div class="bieres_slide">
-                    <figure class="biere">
-                        <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[6]["genre"]); ?>.png" alt="Bière dissonance">
-                    </figure>
-                    <div class="description">
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[6]["genre"]); ?>">
+                        <figure class="biere">
+                            <img class="mockup" src="../../public/images/biere/<?php echo strtolower($biere[6]["genre"]); ?>.png" alt="<?php echo $biere[6]["nom"]; ?>">
+                        </figure>
+                    </a>
+                    <a href="?route=produit&genre=<?php echo strtolower($biere[6]["genre"]); ?>" class="description">
                         <h1 class="nom_biere" id="<?php echo strtolower($biere[6]["genre"]); ?>"><?php echo $biere[6]["nom"]; ?></h1>
                         <p><?php echo $biere[6]["description"]; ?></p>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="boutons">
-                <button class="precedant" aria-label="Diapositive précédente"> <img src="../../public/images/fleche.png" alt="">
+                <button class="precedant"> <img src="../../public/images/fleche.png" alt="Précédent">
                 </button>
-                <button class="suivant" aria-label="Diapositive suivante"><img src="../../public/images/fleche.png" alt=""></button>
+                <button class="suivant"><img src="../../public/images/fleche.png" alt="Suivant"></button>
             </div>
         </div>
     </div>
