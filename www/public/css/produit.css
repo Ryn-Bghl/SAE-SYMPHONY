@@ -9,6 +9,11 @@ main {
     margin: 4rem auto;
 }
 
+main img {
+    width: 50vw;
+    height: auto;
+}
+
 figure {
     display: flex;
     justify-content: center;

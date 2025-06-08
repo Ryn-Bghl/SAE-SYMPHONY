@@ -1,18 +1,43 @@
 /* Typography */
 
 @font-face {
-    font-family: 'Hacked';
-    src: url("../../public/fonts/Hacked-KerX.ttf");
+    font-family: "Gloria Hallelujah";
+    src: url(../fonts/GloriaHallelujah-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Honey Salt';
-    src: url("../../public/fonts/Honey_Salt.otf");
+    font-family: "HACKED";
+    src: url(../fonts/Hacked-KerX.ttf);
 }
 
 @font-face {
-    font-family: 'Neucha';
-    src: url("../../public/fonts/Neucha.otf");
+    font-family: "Honey Salt";
+    src: url(../fonts/Honey_Salt.otf);
+}
+
+@font-face {
+    font-family: "Bernard MT";
+    src: url(../fonts/bernhc.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "ROG";
+    src: url(../fonts/ROGLyonsTypeRegular3.ttf);
+}
+
+@font-face {
+    font-family: "Okay Jelly";
+    src: url(../fonts/Okay\ Jelly.otf);
+}
+
+@font-face {
+    font-family: "SIMBIOT";
+    src: url(../fonts/Simbiot.ttf);
 }
 
 * {

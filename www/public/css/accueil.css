@@ -194,7 +194,6 @@ hr {
 
 .bieres_slide {
     display: none;
-    /* Remove position: absolute, top, left, width, height */
 }
 
 .bieres_slide.active {
@@ -255,14 +254,9 @@ button:hover {
     border-radius: 50%;
 }
 
-@media (max-width: 600px) {
-    .biere {
-        width: 35vw;
-        max-width: 120px;
-    }
-
+@media (max-width: 1200px) {
     .mockup {
-        transform: translate(100%, 0);
+        transform: translate(0, 8%);
     }
 
     .carousel {
@@ -273,31 +267,104 @@ button:hover {
 
     .bieres_slide {
         flex-direction: column;
-        /* Empile verticalement */
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .biere {
         order: 1;
-        /* Affiche la bière en premier */
         margin-bottom: 2vw;
+        width: 35vw;
+        max-width: 120px;
+        min-width: 80px;
     }
 
     .description {
         order: 2;
-        /* Affiche le texte en dessous */
         align-items: center;
         margin-left: 0;
         width: 90vw;
+        margin-top: 40vw;
     }
 
     .description p,
     .description h1 {
         width: 100%;
         margin-left: 0;
-        font-size: 4vw;
         text-align: center;
+        font-size: 3vw;
+    }
+
+    .description h1 {
+        font-size: 6vw;
+        margin-top: 5vw;
+    }
+
+    #slogan {
+        font-size: 6vw;
+        margin-top: 10vw;
+    }
+
+    .video iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evenements img {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .evenements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #festival {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .precedant,
+    .suivant {
+        width: 60px;
+        height: 60px;
+        top: 400px;
+        margin-top: -30px;
+    }
+
+    .precedant:hover,
+    .suivant:hover {
+        width: 80px;
+        height: 80px;
+    }
+
+    .precedant {
+        margin-left: 20px;
+    }
+
+    .suivant {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .description {
+        margin-top: 50vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .description {
+        margin-top: 70vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .description {
+        margin-top: 90vw;
     }
 }
 
