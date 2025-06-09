@@ -49,3 +49,13 @@ figure {
     width: 150px;
     margin-bottom: 1rem;
 }
+
+.profil-actions {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cls-black);
+    font-weight: 600;
+}

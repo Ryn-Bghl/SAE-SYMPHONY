@@ -25,9 +25,9 @@ function generateConnexionPage()
         // Vérification du mot de passe
         if (password_verify($_POST['password'], $user['mdp'])) {
 
-            // Authentification réussie, redirection vers la page d'accueil
+            // Authentification réussie, redirection vers la page de profil
             $_SESSION['user'] = $user;
-            header('Location: index.php?route=accueil');
+            header('Location: index.php?route=profil');
             exit();
         }
     }

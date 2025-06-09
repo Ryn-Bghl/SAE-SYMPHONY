@@ -167,6 +167,14 @@ nav a:hover {
     height: auto;
 }
 
+#profile-icon:hover {
+    cursor: pointer;
+}
+
+#profile-icon img {
+    border-radius: 50%;
+}
+
 #pannier-icon {
     width: 50px;
     height: auto;

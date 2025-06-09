@@ -16,5 +16,12 @@ function generateProfilPage()
         'layout' => 'app/view/common/layout.php',
     ];
 
+    if (isset($_GET['action']) && $_GET['action'] == 'deconnexion') {
+        // Déconnexion de l'utilisateur
+        unset($_SESSION['user']);
+        header('Location: index.php?route=connexion');
+        exit();
+    }
+
     generatePage($data);
 }

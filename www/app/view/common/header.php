@@ -28,8 +28,10 @@
         </nav>
         <ul class="profile-pannier">
             <li>
-                <a href="../../../?route=connexion">
-                    <figure id="profile-icon"><img src="../../../public/images/profile-icon.png" alt="icon de profil"></figure>
+                <a href="../../../?route=<?php echo isset($_SESSION['user']) ? 'profil' : 'connexion'; ?>">
+                    <figure id="profile-icon">
+                        <img src="<?php echo isset($_SESSION['user']) ? "https://api.dicebear.com/9.x/notionists-neutral/svg?seed=" . htmlspecialchars($_SESSION['user']['prenom']) : "../../../public/images/profile-icon.png"; ?>" alt="Photo de profil">
+                    </figure>
                 </a>
             </li>
             <li>
@@ -46,7 +48,11 @@
                 <li><a href="../../../?route=notre-marque">Notre marque</a></li>
                 <li><a href="../../../?route=notre-equipe">Notre équipe</a></li>
                 <li><a href="../../../?route=brassage">Brassage</a></li>
-                <li><a href="../../../?route=connexion">Connexion</a></li>
+                <?php if (isset($_SESSION['user'])): ?>
+                    <li><a href="../../../?route=profil">Profil</a></li>
+                <?php else: ?>
+                    <li><a href="../../../?route=connexion">Connexion</a></li>
+                <?php endif; ?>
             </ul>
         </div>
     </header>
