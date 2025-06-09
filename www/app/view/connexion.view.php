@@ -6,7 +6,7 @@
 
       <div class="login-box">
           <img src="../../public/images/logo-symphony.png" alt="Symphony" class="logo-box">
-          <form action="includes/connexion.php" method="POST">
+          <form action="?route=connexion" method="POST">
               <label>Adresse mail</label>
               <input type="email" name="email" required>
 

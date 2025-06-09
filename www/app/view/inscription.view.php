@@ -8,12 +8,12 @@
         <div class="form-logo"><img src="/public/images/logo-symphony.png" alt="logo de symphony"></figure>
         </div>
         <h2>Inscription</h2>
-        <form method="post" action="">
+        <form method="POST" action="?route=inscription">
             <label>Adresse mail :</label>
             <input type="email" name="email" required>
 
             <label>Mot de passe :</label>
-            <input type="password" name="password" required>
+            <input type="password" name="mdp" required>
 
             <label>Mot de passe :</label>
             <input type="password" name="confirm" required>
