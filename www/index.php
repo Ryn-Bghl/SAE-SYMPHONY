@@ -54,6 +54,10 @@ switch ($route) {
         require_once 'app/controller/404.controller.php';
         generate404Page();
         break;
+    case 'profil':
+        require_once 'app/controller/profil.controller.php';
+        generateProfilPage();
+        break;
     default:
         header('Location: ?route=error');
         exit();

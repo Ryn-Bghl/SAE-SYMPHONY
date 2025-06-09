@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: "Neucha";
+    src: url(../fonts/neucha.otf);
+}
+
+@font-face {
     font-family: "HACKED";
     src: url(../fonts/Hacked-KerX.ttf);
 }
