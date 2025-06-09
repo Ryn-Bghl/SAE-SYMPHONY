@@ -10,7 +10,7 @@
         <a href="../../../?route=notre-marque">notre marque</a>
         <a href="../../../?route=notre-equipe">notre équipe</a>
         <a href="../../../?route=brassage">brassage</a>
-        <a href="../../../?route=profil">mon compte</a>
+        <a href="../../../?route=<?= isset($_SESSION['user']) ? 'profil' : 'connexion'; ?>"><?= isset($_SESSION['user']) ? 'mon compte' : 'connexion'; ?></a>
     </div>
     <p>© 2025 Symphony. All rights reserved.</p>
 </footer>
