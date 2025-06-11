@@ -100,7 +100,7 @@
     </div>
     <hr>
 
-    <div class="video" id=video_backstage>
+    <div class="video" id="video_backstage">
         <video src=""></video>
     </div>
 
@@ -111,5 +111,5 @@
         <img src="../../public/images/festival_3.jpg" alt="">
         <img src="../../public/images/festival_4.jpg" alt="">
     </div>
-
+    <iframe id="music_fond" style="border-radius:12px" src="https://open.spotify.com/embed/track/62KZRwymXq9Rgm8Cm5UCfx?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </main>

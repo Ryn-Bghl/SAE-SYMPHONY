@@ -38,7 +38,6 @@ function prevSlide() {
   showSlide(currentSlide);
 }
 
-// Initialize carousel only if slides exist
 if (slides.length > 0) {
   showSlide(currentSlide);
   if (prevButton) prevButton.addEventListener("click", prevSlide);
