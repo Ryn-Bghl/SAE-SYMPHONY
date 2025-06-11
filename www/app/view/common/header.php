@@ -7,7 +7,7 @@
     <title><?php echo $data["page_title"]; ?></title>
 
     <link rel="stylesheet" href="../../../public/css/header-footer.css">
-    <link rel="stylesheet" href="../../../public/css/<?php echo $data["css_file"]; ?>">
+    <link rel="stylesheet" href="<?php echo $data["css_file"]; ?>">
     <link rel="shortcut icon" href="../../../public/images/favicon-symphony.png" type="image/x-icon">
     <script src="/public/js/header.js" defer></script>
     <script src="../../../public/js/<?php echo $data["js_file"]; ?>" defer></script>
