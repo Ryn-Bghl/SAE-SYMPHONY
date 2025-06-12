@@ -34,12 +34,12 @@ function generateProduitPage()
             $spotifyEmbed = "https://open.spotify.com/embed/track/4LwU4Vp6od3Sb08CsP99GC?utm_source=generator&theme=0";
             break;
         default:
-            $spotifyEmbed = "https://open.spotify.com/embed/track/62KZRwymXq9Rgm8Cm5UCfx?utm_source=generator&theme=0";
+            $spotifyEmbed = "https://open.spotify.com/embed/track/7dzHZQQ69XpP6M3ifGeIJs?utm_source=generator&theme=0";
             break;
     }
 
     $data = [
-        "music_fond" => $spotifyEmbed ?? "https://open.spotify.com/embed/track/62KZRwymXq9Rgm8Cm5UCfx?utm_source=generator&theme=0",
+        "music_fond" => $spotifyEmbed ?? "https://open.spotify.com/embed/track/7dzHZQQ69XpP6M3ifGeIJs?utm_source=generator&theme=0",
         'product' => getProductByGenre($_GET['genre'] ?? 'jazz'),
         'active_route' => '',
         'css_file' => "../../../public/css/produit.css",
