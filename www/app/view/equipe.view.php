@@ -48,8 +48,9 @@
     <iframe id="music_fond" style="border-radius:12px" src="https://open.spotify.com/embed/track/7dzHZQQ69XpP6M3ifGeIJs?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </main>
 <script defer>
-    <?php foreach ($_SESSION as $name => $citation): ?> //creation fonction qui va chercher tous les membres de l'equipe depuis la base de données
-        // chq membres possédent nom et citations
+    <?php foreach ($_SESSION as $name => $citation): ?> 
+    //creation fonction qui va chercher tous les membres de l'equipe depuis la base de données
+    // chq membres possédent nom et citations
     //données stockées dans la superglobale $_SESSION ( stocker données entre plusieurs pages
     // grace a ce petit script php intégré dans le html on parcourt la session pour envoyer automatiquement les citations vers le navigateur
         sessionStorage.setItem("<?php echo $name; ?>", "<?php echo $citation; ?>");
