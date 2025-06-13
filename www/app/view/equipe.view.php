@@ -1,4 +1,7 @@
 <main>
+<!--  2 listes    -->
+<!--     chq membre presenté ds <li> qui contient <h2> + <img>-->
+<!--     tt regroupé dans 2 <ul> avec class diff -->
     <h1> Symphony</h1>
     <ul class="symphony">
         <li>
