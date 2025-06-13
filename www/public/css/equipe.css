@@ -1,3 +1,5 @@
+
+/*flexbox pour l'affichage en ligne des membres*/
 main {
     display: flex;
     flex-direction: column;
@@ -16,6 +18,7 @@ main ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /*les cartes s'ajustent automatiquement a la taillle de l'ecran*/
 }
 
 .brasseurs {
@@ -43,6 +46,7 @@ main img {
 
 main li:hover {
     transform: scale(1.1);
+    /*animation zoom quand on survole les cartes*/
 }
 
 main h1 {
