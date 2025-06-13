@@ -20,7 +20,7 @@ document.querySelectorAll("main li").forEach((listElement) => {
     // On récupère le texte contenu dans la balise <h2> de l'élément <li>
     const sessionDescription =
       sessionStorage.getItem(name) || "Aucune description disponible.";
-    // On tente de récupérer une description stockée dans le sessionStorage sous la clé correspondant au nom
+    // On recupere une description stockée dans le sessionStorage sous la clé correspondant au nom
     // Si aucune description n'est trouvée, on affiche un texte par défaut "Aucune description disponible"
     infoText.textContent = sessionDescription;
     // On place la description récupérée comme contenu du paragraphe
